@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Login Error Validation(failed)">
+    <classes>
+      <class name="ShoppingCart.ErrorValidationTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="productErrorValidate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ShoppingCart.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Login Error Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
